@@ -32,6 +32,19 @@ MiniShop is a full-stack e-commerce web application built with **HTML/CSS**, **B
 
 ---
 
+## 🧪 Test Stripe
+
+To test the payment system, use the following Stripe test card:
+
+- **Card Number**: `4242 4242 4242 4242`
+- **Expiration**: Any future date (e.g. `12/34`)
+- **CVC**: `123`
+- **ZIP**: Any 5-digit ZIP code (e.g. `10001`)
+
+This will simulate a successful payment using Stripe's test mode.
+
+---
+
 ## 📦 Installation (Local Setup)
 
 1. **Clone the repository**
