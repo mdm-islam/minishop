@@ -1,0 +1,5 @@
+python/venv/
+server/routes/.env
+__pycache__/
+*.pyc
+.DS_Store

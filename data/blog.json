@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Top 5 Gadgets of 2025",
+      "image": "images/blog1.jpg",
+      "date": "May 1, 2025",
+      "author": "MiniShop Team",
+      "content": "Discover the top 5 gadgets changing the way we live and work in 2025..."
+    },
+    {
+      "id": 2,
+      "title": "How to Choose the Right Smartwatch",
+      "image": "images/blog2.jpg",
+      "date": "May 3, 2025",
+      "author": "Jane Doe",
+      "content": "From fitness to fashion, here’s how to pick the perfect smartwatch..."
+    },
+    {
+      "id": 3,
+      "title": "Why Fast Chargers Matter",
+      "image": "images/blog3.jpg",
+      "date": "May 5, 2025",
+      "author": "John Smith",
+      "content": "Learn why fast charging technology is more important than ever..."
+    }
+  ]
+  

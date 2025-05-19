@@ -1,0 +1,266 @@
+/* General Page Styling */
+body {
+  margin-top: 70px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Small cart badge on navbar */
+#cart-count {
+  font-size: 0.75rem;
+  padding: 4px 6px;
+}
+
+/* Navbar styling with shadow and hover color */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand img {
+  height: 40px;
+}
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero carousel full height image and caption */
+.carousel-item {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  bottom: 25%;
+}
+
+/* Promotional image hover zoom effect */
+.promo-box {
+  position: relative;
+  overflow: hidden;
+}
+.promo-box img {
+  transition: transform 0.3s ease;
+}
+.promo-box:hover img {
+  transform: scale(1.1);
+}
+.promo-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+}
+
+/* Product card hover scale effect */
+.product-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+/* Parallax section overlay for visual effect */
+.parallax .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 60px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  z-index: 2;
+}
+
+/* Footer link hover highlight */
+footer a:hover {
+  color: #ffc107 !important;
+}
+
+/* Product card animation and spacing */
+.product-card {
+  transition: transform 0.3s ease;
+}
+.product-card:hover {
+  transform: scale(1.03);
+}
+.add-to-cart-btn {
+  margin-top: 10px;
+}
+
+/* Add to cart button hover effect with animation */
+.add-to-cart-btn {
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.add-to-cart-btn:hover {
+  background-color: #ffc107;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Product card and button hover animation */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.add-to-cart {
+  transition: background-color 0.3s, color 0.3s;
+}
+.add-to-cart:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Team member card hover animation */
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Section title underline effect */
+h2.section-title {
+  border-bottom: 2px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+}
+
+/* Duplicate product card hover (safe to keep if intentional) */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.add-to-cart {
+  transition: background-color 0.3s, color 0.3s;
+}
+.add-to-cart:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Buttons for cart and details hover animations */
+.add-to-cart, .details-btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+.add-to-cart:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.details-btn:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Featured section heading style */
+.featured-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login card hover shadow and rounded style */
+.login-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Admin login input fields */
+#adminLoginForm input.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+#adminLoginForm input.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+/* Admin login background theme */
+.admin-login-bg {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+/* Login card hover effect again (duplicated style kept) */
+.login-card {
+  background: #fff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Input group left-right border fixes */
+.input-group-text {
+  background-color: #f1f1f1;
+  border-right: none;
+}
+.input-group .form-control {
+  border-left: none;
+}
+.input-group .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+/* General body background override */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar bottom border highlight */
+.navbar {
+  border-bottom: 3px solid #0d6efd;
+}
+
+/* Sidebar layout and theme */
+#sidebar {
+  background-color: #343a40;
+  color: white;
+  min-height: 100vh;
+}
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: left;
+  color: white;
+  border: none;
+  background: none;
+}
+.sidebar-btn:hover,
+.sidebar-btn.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* General section title style */
+.section-title {
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+}
+
+/* Product image sizing */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Toast position priority */
+.toast {
+  z-index: 1055;
+}

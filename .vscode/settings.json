@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintArgs": [
+    "--disable=import-error"
+],
+    "python.linting.enabled": false
+}

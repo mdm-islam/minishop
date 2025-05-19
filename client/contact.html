@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | MiniShop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .parallax {
+      background: url('images/banner/contact-banner.jpg') center/cover no-repeat fixed;
+      color: white;
+      padding: 120px 20px;
+      text-align: center;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    .form-control:focus {
+      box-shadow: none;
+      border-color: #0d6efd;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #0d6efd;
+      display: inline-block;
+      padding-bottom: 8px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo.png" alt="MiniShop" height="40" class="me-2">
+      MiniShop
+    </a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Shop</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Parallax Banner -->
+<section class="parallax">
+    <div class="container">
+      <h1 class="display-4 fw-bold">About MiniShop</h1>
+      <p class="lead">Where innovation meets everyday essentials</p>
+    </div>
+  </section>
+  
+
+<!-- Contact Section -->
+<section class="container py-5">
+  <div class="row">
+    <div class="col-md-6 mb-4" data-aos="fade-right">
+      <h2 class="section-title">Get in Touch</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" id="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea id="message" rows="5" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary px-4">Send Message</button>
+      </form>
+    </div>
+
+    <div class="col-md-6" data-aos="fade-left">
+      <h2 class="section-title">Contact Information</h2>
+      <p><strong>Address:</strong> 123 Market Street, New York, NY 10001</p>
+      <p><strong>Phone:</strong> +1-800-123-456</p>
+      <p><strong>Email:</strong> support@minishop.com</p>
+      <p><strong>Hours:</strong> Mon – Sun: 9AM – 8PM</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Featured</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">New Arrivals</a></li>
+            <li><a href="#" class="text-white">Best Sellers</a></li>
+            <li><a href="#" class="text-white">Offers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>Email: support@minishop.com</p>
+          <p>Phone: +1-800-123-456</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-3">Facebook</a>
+          <a href="#" class="text-white me-3">Instagram</a>
+          <a href="#" class="text-white">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 800, once: true });
+</script>
+
+</body>
+</html>
